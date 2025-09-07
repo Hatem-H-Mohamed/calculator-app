@@ -1,16 +1,63 @@
-# calculator_app
+# Calculator App
 
-A new Flutter project.
+A simple and functional **Calculator application** built with Flutter.  
+This app provides a clean user interface to perform basic arithmetic operations quickly and efficiently.
+
+## Features
+
+*   **Basic Operations:** Perform addition, subtraction, multiplication, and division.
+*   **Clear Functionality:** Easily reset calculations with a clear button.
+*   **Responsive UI:** Works smoothly across Android and iOS devices.
+*   **Real-Time Results:** Instant calculation updates as you input numbers.
+*   **Custom UI:** A modern and minimal design for a pleasant user experience.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a local copy up and running, follow these simple steps.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ensure you have the Flutter SDK installed on your machine.  
+For installation instructions, see the [official Flutter documentation](https://flutter.dev/docs/get-started/install).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/Hatem-H-Mohamed/calculator-app.git
+    ```
+2.  **Navigate to the project directory:**
+    ```sh
+    cd calculator-app
+    ```
+3.  **Install dependencies:**
+    ```sh
+    flutter pub get
+    ```
+4.  **Run the application:**
+    ```sh
+    flutter run
+    ```
+
+## Project Structure
+The core application logic is located in the `lib/` directory.
+
+```
+lib/
+├── core/
+│ └── theme/
+│ └── app_colors.dart # Defines the application's color palette
+├── screens/
+│ └── home_screen.dart # Main calculator screen with UI and logic
+├── widgets/
+│ └── custom_button.dart # Reusable button widget for calculator keys
+└── main.dart # The entry point of the application
+```
+
+*   **`main.dart`**: The entry point for the Flutter application.  
+*   **`core/`**: Contains shared application code, such as theme colors.  
+*   **`screens/`**: Holds the main calculator screen with UI and logic.  
+*   **`widgets/`**: Contains reusable UI components like calculator buttons. 
+
+
+
